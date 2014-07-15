@@ -1,0 +1,99 @@
+body {
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	right bottom,
+	color-stop(0, #0A090A),
+	color-stop(0.78, #5E1D1D));
+    background-image: -o-linear-gradient(right bottom, #0A090A 0%, #5E1D1D 78%);
+    background-image: -moz-linear-gradient(right bottom, #0A090A 0%, #5E1D1D 78%);
+    background-image: -webkit-linear-gradient(right bottom, #0A090A 0%, #5E1D1D 78%);
+    background-image: -ms-linear-gradient(right bottom, #0A090A 0%, #5E1D1D 78%);
+    background-image: linear-gradient(to right bottom, #0A090A 0%, #5E1D1D 78%);
+	min-width: 900px;
+	max-width: 900px;
+}
+
+ul {
+    list-style: none;
+}
+
+.highlight {
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+#leftcolumn {
+	width: 75%;
+	float: left;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+	height: 100%;	
+	
+}
+
+#leftcolumn img {
+	
+	height: 284px;
+	width: 183px;
+	float: left;
+}
+
+
+#topspacing {
+	margin-top: 130px;
+
+}
+
+#promoimg {
+margin-top: 55px;
+left: 200px;
+
+}
+
+#promoimg img {
+	height: 62px;
+	width: 425px;
+	margin-left: 45px;
+}
+/* does the order of the elements change the presidence? */
+
+#rightcolumn {
+	width: 22%;
+	float: right;
+	margin-top: 92px;
+}
+
+#rightcolumn img
+{
+	height: 45px;
+	width: 75px;
+	margin-left: 0px;
+	margin-top: 29px;
+}
+
+
+
+
+#bottomImages{
+	
+	width: 100%;
+	margin-top: 8px;
+	margin-left: 20px;
+
+	display: inline-block;
+	/* why can't i center with auto and auto */
+}
+
+#bottomImages img
+{
+	border-style: groove;
+	height: 140px;
+	width: 140px;
+	margin-left: 10px;
+
+}
+
+
+}
